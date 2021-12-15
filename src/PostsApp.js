@@ -146,7 +146,7 @@ class PostsApp extends Component {
               placeholder="Enter the user id"
               value={this.state.userId}
               onChange={this.handleChange}
-              // required
+              required
             />
             <span> {this.state.errors.userId}</span>
           </div>
@@ -159,7 +159,7 @@ class PostsApp extends Component {
               placeholder="Enter the title"
               value={this.state.title}
               onChange={this.handleChange}
-              // required
+              required
             />
             <span> {this.state.errors.title}</span>
           </div>
@@ -172,7 +172,7 @@ class PostsApp extends Component {
               placeholder="Enter the body"
               value={this.state.body}
               onChange={this.handleChange}
-              // required
+              required
             />
             <span> {this.state.errors.body}</span>
           </div>
